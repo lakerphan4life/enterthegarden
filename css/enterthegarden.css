@@ -69,7 +69,10 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 2;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -161,6 +164,10 @@ p {
   letter-spacing: -1px;
 }
 
+.font-grand.text-center {
+  line-height: 1.1;
+}
+
 .font-gt {
   font-family: 'Gt america extended', sans-serif;
 }
@@ -211,12 +218,16 @@ p {
 }
 
 .container-narrow {
-  max-width: 1100px;
+  max-width: 1200px;
   min-width: 0px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 60px;
   padding-left: 60px;
+}
+
+.heading {
+  margin-bottom: 30px;
 }
 
 .header {
@@ -315,6 +326,7 @@ p {
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 20px;
   border-radius: 12px;
   background-color: #c7e2dc;
   color: #000;
@@ -328,6 +340,19 @@ p {
   max-width: 240px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.div-block-3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.div-block-4 {
+  padding-bottom: 40px;
+}
+
+.div-block-5 {
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 991px) {
@@ -462,9 +487,17 @@ p {
     bottom: 0%;
   }
 
+  .paragraph.black-text {
+    margin-bottom: 12px;
+  }
+
   .dosing-table {
     padding-right: 12px;
     padding-left: 12px;
+  }
+
+  .div-block-3 {
+    padding-top: 30px;
   }
 }
 
