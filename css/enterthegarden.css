@@ -202,7 +202,7 @@ p {
   line-height: 1.2;
 }
 
-.large-text.experience-text.black-text {
+.experience-text.black-text {
   font-size: 20px;
   line-height: 24px;
 }
@@ -476,7 +476,7 @@ p {
     line-height: 24px;
   }
 
-  .large-text.experience-text.black-text {
+  .experience-text.black-text {
     font-size: 18px;
   }
 
