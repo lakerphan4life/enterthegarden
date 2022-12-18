@@ -69,10 +69,7 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 2;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -137,6 +134,13 @@ p {
   display: flex;
 }
 
+.flex.ai-c.jc-c {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
 .ai-c {
   display: -webkit-box;
   display: -webkit-flex;
@@ -165,7 +169,8 @@ p {
 }
 
 .font-grand.text-center {
-  line-height: 1.1;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .font-gt {
@@ -191,7 +196,7 @@ p {
 }
 
 .large-text {
-  font-size: 1.6em;
+  font-size: 20px;
   line-height: 1.7;
   font-weight: 500;
 }
@@ -199,6 +204,11 @@ p {
 .large-text.experience-text {
   margin-bottom: 0px;
   line-height: 1.4;
+}
+
+.large-text.experience-text.black-text {
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .text-center {
@@ -228,6 +238,7 @@ p {
 
 .heading {
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
 .header {
@@ -318,8 +329,12 @@ p {
 }
 
 .paragraph {
-  font-size: 1.4em;
+  font-size: 20px;
   font-weight: 400;
+}
+
+.paragraph.black-text {
+  line-height: 32px;
 }
 
 .dosing-table {
@@ -355,15 +370,15 @@ p {
   padding-bottom: 40px;
 }
 
+.heading-4 {
+  font-size: 36px;
+}
+
 @media screen and (max-width: 991px) {
   .div-block-2 {
     max-width: 60vw;
     min-height: 500px;
     min-width: 400px;
-  }
-
-  .font-grand.text-center {
-    font-size: 3.6em;
   }
 
   .container-narrow {
@@ -388,7 +403,12 @@ p {
   }
 
   .font-grand.text-center {
-    font-size: 2.6em;
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .heading {
+    font-size: 24px;
   }
 
   .flex-col-row {
@@ -411,6 +431,10 @@ p {
   .dosing-table {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .div-block-4 {
+    padding-bottom: 30px;
   }
 }
 
@@ -446,9 +470,18 @@ p {
     padding-bottom: 60px;
   }
 
+  .font-grand.text-center {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
   .large-text {
-    font-size: 1.3em;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .large-text.experience-text.black-text {
+    font-size: 18px;
   }
 
   .spacer-3 {
@@ -467,7 +500,7 @@ p {
   }
 
   .heading {
-    font-size: 1.6em;
+    font-size: 20px;
   }
 
   .header-logo.text-center {
@@ -489,6 +522,7 @@ p {
 
   .paragraph.black-text {
     margin-bottom: 12px;
+    font-size: 18px;
   }
 
   .dosing-table {
