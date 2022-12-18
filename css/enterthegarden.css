@@ -199,12 +199,12 @@ p {
 
 .large-text.experience-text {
   margin-bottom: 0px;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .experience-text.black-text {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.1;
 }
 
 .text-center {
@@ -478,6 +478,7 @@ p {
 
   .experience-text.black-text {
     font-size: 18px;
+    line-height: 1;
   }
 
   .spacer-3 {
