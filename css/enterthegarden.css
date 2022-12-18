@@ -69,10 +69,7 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 2;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -202,11 +199,11 @@ p {
 }
 
 .spacer-1 {
-  height: 1em;
+  height: 16px;
 }
 
 .spacer-2 {
-  height: 2em;
+  height: 20px;
 }
 
 .spacer-3 {
@@ -427,6 +424,10 @@ p {
   .large-text {
     font-size: 1.3em;
     line-height: 1.6;
+  }
+
+  .spacer-3 {
+    height: 30px;
   }
 
   .container-narrow {
