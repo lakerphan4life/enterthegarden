@@ -491,8 +491,8 @@ p {
 
   .text-container.text-center {
     white-space: break-spaces;
-    -o-object-fit: contain;
-    object-fit: contain;
+    /* -o-object-fit: contain;
+    object-fit: contain; */
   }
 
   .heading {
