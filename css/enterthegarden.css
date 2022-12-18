@@ -69,7 +69,10 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 2;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -207,7 +210,7 @@ p {
 }
 
 .spacer-3 {
-  height: 3em;
+  height: 36px;
 }
 
 .container-narrow {
