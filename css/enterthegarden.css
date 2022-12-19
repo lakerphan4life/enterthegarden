@@ -66,7 +66,7 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 2;
-  display: none;
+  display: flex;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -490,7 +490,7 @@ p {
     bottom: 0%;
     z-index: 2;
     height: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: #000;
   }
 
