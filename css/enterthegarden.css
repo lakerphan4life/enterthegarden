@@ -370,6 +370,30 @@ p {
   font-size: 36px;
 }
 
+
+.dosing-container.text-center {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dose-container {
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c7e2dc;
+  border-radius: 8px;
+}
+
+.heading-5 {
+  margin-bottom: 10px;
+}
+
+.paragraph-2 {
+  font-size: 16px;
+}
+
+
 @media screen and (max-width: 991px) {
   .div-block-2 {
     max-width: 60vw;
