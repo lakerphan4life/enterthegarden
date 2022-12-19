@@ -118,7 +118,12 @@ p {
 }
 
 .container {
-  padding: 100px;
+  max-width: 1500px;
+  min-width: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .html-embed {
@@ -404,7 +409,7 @@ p {
     min-width: 400px;
   }
 
-  .container-narrow {
+  .container-narrow, .container {
     padding-right: 40px;
     padding-left: 40px;
   }
