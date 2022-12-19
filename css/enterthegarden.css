@@ -230,6 +230,13 @@ p {
   height: 36px;
 }
 
+.image-4 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .container-narrow {
   max-width: 1200px;
   min-width: 0px;
