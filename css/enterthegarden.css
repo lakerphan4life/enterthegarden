@@ -4,6 +4,7 @@ h1 {
   font-family: Grandhaven, sans-serif;
   color: #c7e2dc;
   font-weight: 400;
+  letter-spacing: -2px;
 }
 
 h2 {
@@ -12,6 +13,7 @@ h2 {
   font-family: Grandhaven, sans-serif;
   color: #c7e2dc;
   font-weight: 400;
+  letter-spacing: -1px;
 }
 
 h3 {
