@@ -1,7 +1,7 @@
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Grandhaven, sans-serif;
+  font-family: 'Grandhaven', sans-serif;
   color: #c7e2dc;
   font-weight: 400;
   letter-spacing: -2px;
@@ -10,7 +10,7 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Grandhaven, sans-serif;
+  font-family: 'Grandhaven', sans-serif;
   color: #c7e2dc;
   font-weight: 400;
 }
