@@ -13,7 +13,7 @@ h2 {
   font-family: Grandhaven, sans-serif;
   color: #c7e2dc;
   font-weight: 400;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
 }
 
 h3 {
@@ -201,12 +201,12 @@ p {
 
 .large-text.experience-text {
   margin-bottom: 0px;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .experience-text.black-text {
   font-size: 20px;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .text-center {
@@ -341,7 +341,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 20px;
-  border-radius: 12px;
+  border-radius: 8px;
   background-color: #c7e2dc;
   color: #000;
 }
