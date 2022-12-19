@@ -417,6 +417,11 @@ p {
     min-width: 400px;
   }
 
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
   .hero-section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -490,6 +495,11 @@ p {
     padding-bottom: 60px;
   }
 
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .font-grand.text-center {
     font-size: 36px;
     line-height: 42px;
@@ -510,8 +520,8 @@ p {
   }
 
   .container-narrow {
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .text-container.text-center {
