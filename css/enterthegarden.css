@@ -1,16 +1,15 @@
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Grandhaven', sans-serif;
+  font-family: Grandhaven, sans-serif;
   color: #c7e2dc;
   font-weight: 400;
-  letter-spacing: -2px;
 }
 
 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Grandhaven', sans-serif;
+  font-family: Grandhaven, sans-serif;
   color: #c7e2dc;
   font-weight: 400;
 }
@@ -111,16 +110,13 @@ p {
 }
 
 .hero-section {
-  min-height: 0vh;
+  /* min-height: 0vh; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .container {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 80px 40px;
+  padding: 100px;
 }
 
 .html-embed {
@@ -169,12 +165,8 @@ p {
 }
 
 .font-grand.text-center {
-  font-family: Grandhaven, sans-serif;
   font-size: 50px;
   line-height: 50px;
-  font-weight: 400;
-  letter-spacing: -2px;
-  text-transform: uppercase;
 }
 
 .font-gt {
@@ -201,27 +193,22 @@ p {
 
 .large-text {
   font-size: 20px;
-  line-height: 1.7;
+  line-height: 1.5;
   font-weight: 500;
 }
 
 .large-text.experience-text {
   margin-bottom: 0px;
-  line-height: 1.4;
+  line-height: 1.1;
 }
 
-.large-text.experience-text.black-text {
+.experience-text.black-text {
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .text-center {
   text-align: center;
-  letter-spacing: 0px;
-}
-
-.text-center.font-grand {
-  font-size: 42px;
 }
 
 .spacer-1 {
@@ -268,7 +255,7 @@ p {
 }
 
 .header-logo.text-center {
-  /* font-size: 2em; */
+  font-size: 24px;
 }
 
 .flex-col-row {
@@ -383,37 +370,6 @@ p {
   font-size: 36px;
 }
 
-.heading-4.black-text {
-  letter-spacing: -2px;
-}
-
-.div-block-6 {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.dosing-container.text-center {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.dose-container {
-  margin-bottom: 20px;
-  padding: 20px 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #c7e2dc;
-  border-radius: 8px;
-}
-
-.heading-5 {
-  margin-bottom: 10px;
-}
-
-.paragraph-2 {
-  font-size: 16px;
-}
-
 @media screen and (max-width: 991px) {
   .div-block-2 {
     max-width: 60vw;
@@ -490,7 +446,7 @@ p {
     bottom: 0%;
     z-index: 2;
     height: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: #000;
   }
 
@@ -510,11 +466,6 @@ p {
     padding-bottom: 60px;
   }
 
-  .container {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
   .font-grand.text-center {
     font-size: 36px;
     line-height: 42px;
@@ -525,8 +476,9 @@ p {
     line-height: 24px;
   }
 
-  .large-text.experience-text.black-text {
+  .experience-text.black-text {
     font-size: 18px;
+    line-height: 1;
   }
 
   .spacer-3 {
@@ -539,9 +491,9 @@ p {
   }
 
   .text-container.text-center {
-    white-space: break-spaces;
-    -o-object-fit: contain;
-    object-fit: contain;
+    /* white-space: break-spaces; */
+    /* -o-object-fit: contain;
+    object-fit: contain; */
   }
 
   .heading {
