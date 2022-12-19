@@ -256,6 +256,7 @@ p {
 
 .header-logo.text-center {
   font-size: 24px;
+  letter-spacing: -1px;
 }
 
 .flex-col-row {
@@ -421,7 +422,7 @@ p {
     padding-right: 20px;
     padding-left: 20px;
   }
-  
+
   .hero-section {
     padding-top: 80px;
     padding-bottom: 80px;
