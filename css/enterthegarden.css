@@ -504,6 +504,7 @@ p {
 
   .section {
     position: relative;
+    max-width: 100%;
   }
 
   .hero-section {
