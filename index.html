@@ -144,6 +144,7 @@
             var value = 'setcookfopass';
             var expiry = 10;            
             setCookie(key, value, expiry);
+            location.reload();
             $('.password-wrap').addClass('hide');
             $('#passwordprotected').removeClass('hide');    
             // location.reload();
