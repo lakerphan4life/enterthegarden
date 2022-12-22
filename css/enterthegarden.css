@@ -409,6 +409,19 @@ p {
   font-size: 16px;
 }
 
+.menu-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
 
 @media screen and (max-width: 991px) {
   .div-block-2 {
@@ -505,20 +518,6 @@ p {
   .lowercase {
     text-transform: none;
   }
-
-  .menu-list {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-  }
-  
 
   .section {
     position: relative;
