@@ -103,6 +103,10 @@ p {
   background-repeat: repeat;
 }
 
+.lowercase {
+  text-transform: none;
+}
+
 .image {
   opacity: 0;
 }
@@ -513,10 +517,6 @@ p {
     min-height: 340px;
     min-width: 300px;
     background-image: none;
-  }
-
-  .lowercase {
-    text-transform: none;
   }
 
   .section {
