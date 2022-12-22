@@ -32,7 +32,7 @@
               <h4 class="text-center">Enter the password</h4>
               <div class="spacer-1"></div>
               <input type="hidden" name="form_type" value="storefront_password">
-              <input type="password" name="password" id="chkpassword" placeholder="Your last name" autofocus="" class="">
+              <input type="password" name="password" id="chkpassword" placeholder="Try your last name" autofocus="" class="">
               <button class="clickchkcook main-button" name="commit" type="button">Reveal</button>
             </div>
           </div>
@@ -148,7 +148,7 @@
       var cartAttribute = $('#pw_attribution').val();
       $('.clickchkcook').click(function(){
         var chkpassword = $('#chkpassword').val();
-        const acceptablePw = ['goldenteacher','wheating','perez','rangi','delamontanya','guthrie','vonbuck','boyarsky','hamidi'];
+        const acceptablePw = ['goldenteacher','wheating','perez','rangi','delamontanya','guthrie','vonbuck','boyarsky'];
         const enteredPw = chkpassword;
         const pwCheck = acceptablePw.some(x => x === enteredPw.toLowerCase());
         if(chkpassword != ''){
