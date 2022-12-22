@@ -502,6 +502,24 @@ p {
     background-image: none;
   }
 
+  .lowercase {
+    text-transform: none;
+  }
+
+  .menu-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+  
+
   .section {
     position: relative;
     max-width: 100%;
@@ -580,6 +598,17 @@ p {
 
   .div-block-3 {
     padding-top: 30px;
+  }
+  .menu-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .menu-item.dose-container {
+    margin-bottom: 10px;
   }
 }
 
