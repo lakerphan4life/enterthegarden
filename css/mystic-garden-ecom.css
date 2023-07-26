@@ -94,9 +94,9 @@ p {
 
 .image-frame {
   width: 100%;
-  outline-offset: 4px;
+  outline-offset: 1px;
   border-radius: 300px 300px 12px 12px;
-  outline: 3px solid #174b89;
+  outline: 3px solid #eae7dd;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -653,7 +653,7 @@ p {
   overflow: visible;
 }
 
-.div-block-4 {
+.image-container-white-border {
   border: 3px solid #f8f7f1;
   border-radius: 12px;
   flex: auto;
@@ -901,7 +901,7 @@ p {
     text-align: center;
   }
 
-  .div-block-4 {
+  .image-container-white-border {
     box-shadow: none;
     border: 3px solid #f8f7f1;
     margin: 10px;
@@ -1054,7 +1054,7 @@ p {
     display: block;
   }
 
-  .div-block-4 {
+  .image-container-white-border {
     outline-offset: 0px;
     object-position: 50% 50%;
     outline: 3px solid #174b89;
@@ -1124,6 +1124,7 @@ p {
   .image-frame {
     min-height: 300px;
     min-width: 300px;
+    outline-color: #eae7dd;
   }
 
   .product-list {
@@ -1237,7 +1238,7 @@ p {
   }
 
   .flex-child.with-image {
-    display: block;
+    display: flex;
   }
 
   .flex-child.with-image.hide-mobile {
@@ -1247,14 +1248,21 @@ p {
   .flex-child.with-text {
     color: #f8f7f1;
     background-image: none;
+    padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .div-block-4 {
+  .mission.h2 {
+    font-size: 20px;
+  }
+
+  .image-container-white-border {
+    outline-offset: 0px;
+    outline: 3px #174b89;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin: 0;
   }
 
   .marquee-horizontal {
@@ -1291,7 +1299,7 @@ p {
   }
 
   .vert-spacer-30px {
-    display: none;
+    display: block;
   }
 }
 
