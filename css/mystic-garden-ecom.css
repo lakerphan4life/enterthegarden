@@ -1121,6 +1121,10 @@ p {
     padding-right: 16px;
   }
 
+  .image-frame {
+    min-width: 300px;
+  }
+
   .product-list {
     flex-direction: column;
   }
