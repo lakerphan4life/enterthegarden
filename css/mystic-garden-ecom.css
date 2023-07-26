@@ -1122,6 +1122,7 @@ p {
   }
 
   .image-frame {
+    min-height: 300px;
     min-width: 300px;
   }
 
@@ -1156,6 +1157,10 @@ p {
   .card-badge {
     top: 2%;
     right: 3%;
+  }
+
+  .featured-card-image {
+    width: 100%;
   }
 
   .image {
