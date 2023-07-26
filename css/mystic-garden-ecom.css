@@ -1057,7 +1057,7 @@ p {
   .image-container-white-border {
     outline-offset: 0px;
     object-position: 50% 50%;
-    outline: 3px solid #174b89;
+    outline: 3px #174b89;
     justify-content: center;
     align-items: center;
     margin-top: 0;
