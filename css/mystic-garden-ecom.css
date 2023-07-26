@@ -654,14 +654,19 @@ p {
 }
 
 .image-container-white-border {
+  width: 50%;
   border: 3px solid #f8f7f1;
   border-radius: 12px;
-  flex: 0 auto;  
+  flex: 0 auto;
   justify-content: center;
   align-items: center;
   margin-left: 20px;
   display: flex;
   overflow: hidden;
+}
+
+.image-container-white-border.hide-mobile {
+  flex: 0 auto;
 }
 
 .annoucement-bar {
@@ -902,6 +907,7 @@ p {
   }
 
   .image-container-white-border {
+    width: 100%;
     box-shadow: none;
     border: 3px solid #f8f7f1;
     margin: 10px;
